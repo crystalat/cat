@@ -5,7 +5,7 @@ spring:
     config:
       uri: http://localhost:7001/       
       profile: dev                      
-      label: '{cipher}b6b017eab80fee037c0f351c1e5d12c15f86929df338e27a22342cf6b1b63687'                    
+      label: '{cipher}8ed109cf611d1303e082d0e208359f12ee8043b380c1e5b3dfc852a650d8efdb'                    
 server:
   port: 7002
 management:
