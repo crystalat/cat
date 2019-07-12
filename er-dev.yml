@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cattest                    
+  cloud:
+    config:
+      uri: http://localhost:7001/       
+      profile: dev                      
+      label: '{cipher}b6b017eab80fee037c0f351c1e5d12c15f86929df338e27a22342cf6b1b63687'                    
+server:
+  port: 7002
+management:
+  security:
+    enabled: false
